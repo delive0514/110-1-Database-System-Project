@@ -1,0 +1,13 @@
+<title>{{ title }}</title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+
+
+<h1>{{ title }}</h1>
+
+<form name="newProduct" action="/api/addProduct" method="post">
+    id: <input type="number" name="id" placeholder="Enter id">
+    product_name: <input type="text" name="product_name" placeholder="Enter product_name">
+    description: <input type="text" name="description" placeholder="Enter description">
+    category: <input type="text" name="category" placeholder="Enter category">
+    <input type="submit" value="Submit">
+</form>
